@@ -1,0 +1,25 @@
+Using packages
+
+  (On terminal) npm init
+    Do the steps you are given
+    
+  (On package.json) set up "start"
+    npm start
+    
+  Google npmjs
+  
+  Downloading a package though terminal, by "npm install (package name)"
+
+  (On package.json) You are able to check what packages are used to the project
+
+  node_modules & package-lock.json are patched automatically
+
+  package-lock.json = Library that indicates what packages downloaded in what version
+  
+   const randomcolor = require("randomcolor");
+ 
+   let color1 = randomcolor();
+   let color2 = randomcolor();
+   let color3 = randomcolor();
+ 
+   console.log(color1, color2, color3);
